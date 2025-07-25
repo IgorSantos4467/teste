@@ -2,20 +2,33 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Site de Teste</title>
+  <title>Teste com JS</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: sans-serif;
       text-align: center;
       margin-top: 50px;
     }
-    h1 {
-      color: #0077cc;
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <h1>🚀 Bem-vindo ao seu primeiro site!</h1>
-  <p>Este é um teste usando GitHub Pages.</p>
+  <h1>🚀 Teste com JavaScript</h1>
+  <p>Clique no botão abaixo:</p>
+  <button onclick="mostrarMensagem()">Clique aqui</button>
+
+  <script>
+    function mostrarMensagem() {
+      alert("Você clicou no botão! 🎉");
+    }
+  </script>
 </body>
 </html>
